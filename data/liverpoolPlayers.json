@@ -1,0 +1,147 @@
+[
+  {
+    "squadNumber": 13,
+    "firstName": "",
+    "lastName": "Alison",
+    "position": "Goalkeeper",
+    "nationality": "Brazil",
+    "dateOfBirth": "1992/10/02"
+  },
+  {
+    "squadNumber": 4,
+    "firstName": "Virgil",
+    "lastName": "van Dijk",
+    "position": "Defender",
+    "nationality": "Netherlands",
+    "dateOfBirth": "1991/07/08"
+  },
+  {
+    "squadNumber": 6,
+    "firstName": "Dejan",
+    "lastName": "Lovren",
+    "position": "Defender",
+    "nationality": "Croatia",
+    "dateOfBirth": "1989/07/05"
+  },
+  {
+    "squadNumber": 32,
+    "firstName": "Joel",
+    "lastName": "Matip",
+    "position": "Defender",
+    "nationality": "Cameroon",
+    "dateOfBirth": "1991/08/08"
+  },
+  {
+    "squadNumber": 66,
+    "firstName": "Trent",
+    "lastName": "Alexander-Arnold",
+    "position": "Defender",
+    "nationality": "England",
+    "dateOfBirth": "1998/10/07"
+  },
+  {
+    "squadNumber": 2,
+    "firstName": "Nathaniel",
+    "lastName": "Clyne",
+    "position": "Defender",
+    "nationality": "England",
+    "dateOfBirth": "1991/04/05"
+  },
+  {
+    "squadNumber": 3,
+    "firstName": "",
+    "lastName": "Fabinho",
+    "position": "Midfielder",
+    "nationality": "Brazil",
+    "dateOfBirth": "1993/10/23"
+  },
+  {
+    "squadNumber": 5,
+    "firstName": "Geirginio",
+    "lastName": "Wijnaldum",
+    "position": "Midfielder",
+    "nationality": "Netherlands",
+    "dateOfBirth": "1990/11/11"
+  },
+  {
+    "squadNumber": 8,
+    "firstName": "Naby",
+    "lastName": "Keita",
+    "position": "Midfielder",
+    "nationality": "Guinea",
+    "dateOfBirth": "1995/02/10"
+  },
+  {
+    "squadNumber": 14,
+    "firstName": "Jordan",
+    "lastName": "Henderson",
+    "position": "Midfielder",
+    "nationality": "England",
+    "dateOfBirth": "1990/06/17"
+  },
+  {
+    "squadNumber": 20,
+    "firstName": "Adam",
+    "lastName": "Lallana",
+    "position": "Midfielder",
+    "nationality": "England",
+    "dateOfBirth": "1998/05/10"
+  },
+  {
+    "squadNumber": 21,
+    "firstName": "Alex",
+    "lastName": "Oxlade-Chamberlain",
+    "position": "Midfielder",
+    "nationality": "England",
+    "dateOfBirth": "1993/08/15"
+  },
+  {
+    "squadNumber": 9,
+    "firstName": "Roberto",
+    "lastName": "Firmino",
+    "position": "Forward",
+    "nationality": "Brazil",
+    "dateOfBirth": "1991/10/02"
+  },
+  {
+    "squadNumber": 10,
+    "firstName": "Sadio",
+    "lastName": "Mane",
+    "position": "Forward",
+    "nationality": "Senegal",
+    "dateOfBirth": "1992/04/10"
+  },
+  {
+    "squadNumber": 11,
+    "firstName": "Mohamed",
+    "lastName": "Salah",
+    "position": "Forward",
+    "nationality": "Egypt",
+    "dateOfBirth": "1992/06/15"
+  },
+  {
+    "squadNumber": 23,
+    "firstName": "Xherdan",
+    "lastName": "Shaqiri",
+    "position": "Forward",
+    "nationality": "Switzerland",
+    "dateOfBirth": "1991/10/10"
+  },
+  {
+    "squadNumber": 24,
+    "firstName": "Rhian",
+    "lastName": "Brewster",
+    "position": "Forward",
+    "nationality": "England",
+    "dateOfBirth": "2000/04/01"
+  },
+  {
+    "squadNumber": 27,
+    "firstName": "Divock",
+    "lastName": "Origi",
+    "position": "Forward",
+    "nationality": "Belgium",
+    "dateOfBirth": "1995/04/01"
+  }
+
+]
