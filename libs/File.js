@@ -1,11 +1,11 @@
 let fs = require('fs')
 
 class File {
-  static ReadCSV(fileName) {
+  static ReadCSV(fileName, callback) {
     fs.readFile(fileName, 'utf8', (err, data) => {
       if (err) throw err;
       console.log('-----Reading----', fileName)
-      // console.log(data)
+      callback(data)
     });
   }
 }
