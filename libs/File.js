@@ -16,13 +16,7 @@ class File {
         resolve(data)
       });
     })
-  }
-
-  static async readFileAsync (fileName) {
-    return await File.readFile(fileName);
-  }
-
-  
+  }  
 }
 
 module.exports = File
