@@ -2,14 +2,14 @@
 post http://localhost:3000/players
 Content-Type: application/json
 
- {
-    "squadNumber": 32,
-    "firstName": "Joel",
-    "lastName": "Matip",
-    "position": "Defender",
-    "nationality": "Cameroon",
-    "dateOfBirth": "1991/08/08"
-  }
+{
+    "squadNumber": 3,
+    "firstName": "",
+    "lastName": "Fabinho",
+    "position": "Midfielder",
+    "nationality": "Brazil",
+    "dateOfBirth": "1993/10/23"
+}
 
 ###
 get http://localhost:3000/players

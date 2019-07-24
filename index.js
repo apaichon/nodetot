@@ -1,5 +1,3 @@
 const { Server } = require('./middlewares')
-const PlayersRouter = require('./routers/PlayersRouter')
-
+global.__basedir = __dirname;
 const server = new Server()
-server.use(PlayersRouter)

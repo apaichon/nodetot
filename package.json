@@ -15,10 +15,14 @@
     "chai-http": "^4.3.0",
     "crypto": "^1.0.1",
     "express": "^4.17.1",
+    "express-session": "^1.16.2",
     "faker": "^4.1.0",
     "mysql2": "^1.6.5",
     "nightwatch": "^1.1.13",
-    "sequelize": "^5.10.1"
+    "sequelize": "^5.10.1",
+    "useragent": "^2.3.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "mocha": "^5.2.0"

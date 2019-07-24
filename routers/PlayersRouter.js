@@ -2,15 +2,19 @@ const RootUrl = '/players';
 const Players = require('../models/Players')
 let router = require('express').Router();
 
-let create = async (req, res) => {
+let create = async (req, res, next) => {
+  let result = {code:200};
   try {
     let connected  = await Players.connect();
-    let result = await Players.create(req.body);
+    result.result = await Players.create(req.body);
     let closed = await Players.close();
-    res.send(result)
   } catch (err) {
-    res.status(500).send(err)
+    result.message = err
+    res.status(500)
   }
+  res.result = result
+  res.send(result)
+  next();
 }
 
 let find = async (req, res) => {
@@ -54,8 +58,8 @@ let remove = async (req, res) => {
   }
 }
 
-router.post(RootUrl, (req, res) => {
- create(req, res)
+router.post(RootUrl, (req, res, next) => {
+ create(req, res, next)
 }) 
 router.get(RootUrl, (req, res) => {
   find(req, res)
